@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>第一个表单</title>
+</head>
+<body>
+	<pre>
+		method:请求方式 get/post
+		get:数据量小，安全性不高，默认方式
+		post：数据量大，安全性比较高
+		action:请求服务器的路径
+		id:编号，前端区分唯一性js中使用
+		name：名称，后端（服务器）区分唯一性，获取值
+	</pre>
+	<form action="http://localhost:8888/index.html" method="get" accept-charset="utf-8">
+		用户名：<input type="test" name="uname" id="name"/>
+		密码：<input type="password" name="pwd" id="pass"/>
+		<input type="submit" value="登陆"/>
+	</form>
+</body>
+</html>
